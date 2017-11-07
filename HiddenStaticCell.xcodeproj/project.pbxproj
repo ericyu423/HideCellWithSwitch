@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		D4F5A6341FB18684001934F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F5A6331FB18684001934F1 /* AppDelegate.swift */; };
-		D4F5A6361FB18684001934F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F5A6351FB18684001934F1 /* ViewController.swift */; };
 		D4F5A6391FB18684001934F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F5A6371FB18684001934F1 /* Main.storyboard */; };
 		D4F5A63B1FB18684001934F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F5A63A1FB18684001934F1 /* Assets.xcassets */; };
 		D4F5A63E1FB18684001934F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F5A63C1FB18684001934F1 /* LaunchScreen.storyboard */; };
+		D4F5A6461FB186C5001934F1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F5A6451FB186C5001934F1 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D4F5A6301FB18684001934F1 /* expandRows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = expandRows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F5A6301FB18684001934F1 /* HiddenStaticCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiddenStaticCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F5A6331FB18684001934F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4F5A6351FB18684001934F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D4F5A6381FB18684001934F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4F5A63A1FB18684001934F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4F5A63D1FB18684001934F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4F5A63F1FB18684001934F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4F5A6451FB186C5001934F1 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 		D4F5A6311FB18684001934F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4F5A6301FB18684001934F1 /* expandRows.app */,
+				D4F5A6301FB18684001934F1 /* HiddenStaticCell.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,8 +54,8 @@
 		D4F5A6321FB18684001934F1 /* expandRows */ = {
 			isa = PBXGroup;
 			children = (
+				D4F5A6451FB186C5001934F1 /* TableViewController.swift */,
 				D4F5A6331FB18684001934F1 /* AppDelegate.swift */,
-				D4F5A6351FB18684001934F1 /* ViewController.swift */,
 				D4F5A6371FB18684001934F1 /* Main.storyboard */,
 				D4F5A63A1FB18684001934F1 /* Assets.xcassets */,
 				D4F5A63C1FB18684001934F1 /* LaunchScreen.storyboard */,
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4F5A62F1FB18684001934F1 /* expandRows */ = {
+		D4F5A62F1FB18684001934F1 /* HiddenStaticCell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4F5A6421FB18684001934F1 /* Build configuration list for PBXNativeTarget "expandRows" */;
+			buildConfigurationList = D4F5A6421FB18684001934F1 /* Build configuration list for PBXNativeTarget "HiddenStaticCell" */;
 			buildPhases = (
 				D4F5A62C1FB18684001934F1 /* Sources */,
 				D4F5A62D1FB18684001934F1 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = expandRows;
+			name = HiddenStaticCell;
 			productName = expandRows;
-			productReference = D4F5A6301FB18684001934F1 /* expandRows.app */;
+			productReference = D4F5A6301FB18684001934F1 /* HiddenStaticCell.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D4F5A62B1FB18684001934F1 /* Build configuration list for PBXProject "expandRows" */;
+			buildConfigurationList = D4F5A62B1FB18684001934F1 /* Build configuration list for PBXProject "HiddenStaticCell" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4F5A62F1FB18684001934F1 /* expandRows */,
+				D4F5A62F1FB18684001934F1 /* HiddenStaticCell */,
 			);
 		};
 /* End PBXProject section */
@@ -136,8 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F5A6361FB18684001934F1 /* ViewController.swift in Sources */,
 				D4F5A6341FB18684001934F1 /* AppDelegate.swift in Sources */,
+				D4F5A6461FB186C5001934F1 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D4F5A62B1FB18684001934F1 /* Build configuration list for PBXProject "expandRows" */ = {
+		D4F5A62B1FB18684001934F1 /* Build configuration list for PBXProject "HiddenStaticCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4F5A6401FB18684001934F1 /* Debug */,
@@ -312,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4F5A6421FB18684001934F1 /* Build configuration list for PBXNativeTarget "expandRows" */ = {
+		D4F5A6421FB18684001934F1 /* Build configuration list for PBXNativeTarget "HiddenStaticCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4F5A6431FB18684001934F1 /* Debug */,
